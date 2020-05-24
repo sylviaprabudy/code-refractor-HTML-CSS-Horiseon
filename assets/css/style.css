@@ -4,15 +4,19 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    background-color: #d9dcd6;
+    color: #ffffff;
+}
+
+/* Header Style  */
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
 }
 
 header h1 {
@@ -28,7 +32,6 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -48,6 +51,10 @@ a {
 
 p {
     font-size: 16px;
+}
+
+header nav, .content, .benefits {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* Hero Style  */
@@ -71,9 +78,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
-    color: #ffffff;
 }
 
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img{
@@ -103,13 +108,11 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
 }
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
@@ -127,8 +130,8 @@ p {
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: #000;
 }
 
 footer h2 {
